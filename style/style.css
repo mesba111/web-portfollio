@@ -1,0 +1,88 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;    /* mesba er soja suji baki item gula cole ase*/
+    justify-content: space-between;     /* 2 ta items 2 mathai cole gase*/
+    margin: 0px 200px;
+}
+
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+nav ul li{
+    list-style: none;   /*list er fota gula toler jonno*/
+    margin-right: 51px;
+}
+
+nav li  a{ 
+    text-decoration: none;   /*line er nica je blue dag take sata vanish korer jonno*/
+    font-size: 20px;
+}
+
+/* header */
+.header{
+    background-image: url('../images/developer.png') , url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* baner styles */
+.banner-content{
+    max-width: 580px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-intro{
+    font-size: 45px;
+    font-weight: 600px;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.banner-description{
+    font-size: 18px;
+}
+.profile-pic{
+    width: 500px;
+}
